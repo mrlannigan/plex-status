@@ -4,7 +4,7 @@ This module will output the current status of a given plex server. Useful for in
 
 ## Credit
 
-Original code is credit of Derek Rada <derekrada@gmail.com> from this original gist: https://gist.github.com/Dirrk/608642bd820849736ad2
+Original code is credit of [Derek Rada](https://github.com/dirrk)  from this original gist: https://gist.github.com/Dirrk/608642bd820849736ad2
 
 ## CLI
 
