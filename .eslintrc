@@ -1,0 +1,6 @@
+{
+  "extends": "mrlannigan/node",
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}

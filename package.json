@@ -1,0 +1,36 @@
+{
+  "name": "plex-status",
+  "version": "1.0.0",
+  "description": "Export current status of a plex server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "plex-status": "./bin/plex-status.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrlannigan/plex-status.git"
+  },
+  "author": "Julian Lannigan <julian.lannigan@gmail.com>",
+  "contributors": [{
+    "name": "Derek Rada",
+    "email": "derekrada@gmail.com"
+  }],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrlannigan/plex-status/issues"
+  },
+  "homepage": "https://github.com/mrlannigan/plex-status#readme",
+  "dependencies": {
+    "joi": "^10.1.0",
+    "lodash": "^4.17.4",
+    "wreck": "^10.0.0",
+    "xml2js": "^0.4.17",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "eslint-config-mrlannigan": "^1.0.0"
+  }
+}
