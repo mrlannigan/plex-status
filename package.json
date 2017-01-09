@@ -1,6 +1,6 @@
 {
   "name": "plex-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Export current status of a plex server",
   "main": "index.js",
   "scripts": {
@@ -14,10 +14,12 @@
     "url": "git+https://github.com/mrlannigan/plex-status.git"
   },
   "author": "Julian Lannigan <julian.lannigan@gmail.com>",
-  "contributors": [{
-    "name": "Derek Rada",
-    "email": "derekrada@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Derek Rada",
+      "email": "derekrada@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrlannigan/plex-status/issues"
