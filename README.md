@@ -1,5 +1,11 @@
 # plex-status
 
+This module will output the current status of a given plex server. Useful for injestion to splunk or other log analysis tools.
+
+## Credit
+
+Original code is credit of Derek Rada <derekrada@gmail.com> from this original gist: https://gist.github.com/Dirrk/608642bd820849736ad2
+
 ## CLI
 
 *Example*
@@ -9,6 +15,14 @@ $ plex-status -t 0000000000000000 --host 192.168.0.0 --port 32400
 ```
 
 The command will output a JSON string for each open session on the targeted plex server.
+
+### Usage with Cron and NVM Example
+
+```
+* * * * * NODE_VERSION=6 /Users/julian/.nvm/nvm-exec plex-status -t 00000000000000000 >> /var/log/plex/plexstatus.log 2>> /var/log/plex/plexerror.log
+```
+
+NOTE: This assumes you have installed this module globally within the given NODE_VERSION.
 
 ## API
 
