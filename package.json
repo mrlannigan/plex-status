@@ -32,5 +32,8 @@
   },
   "devDependencies": {
     "eslint-config-mrlannigan": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=6"
   }
 }
